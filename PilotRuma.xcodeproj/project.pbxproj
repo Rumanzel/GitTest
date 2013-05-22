@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A352BA68174CE29A0083EA33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A352BA67174CE29A0083EA33 /* UIKit.framework */; };
+		A352BA6A174CE29A0083EA33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A352BA69174CE29A0083EA33 /* Foundation.framework */; };
+		A352BA6C174CE29A0083EA33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A352BA6B174CE29A0083EA33 /* CoreGraphics.framework */; };
+		A352BA6E174CE29A0083EA33 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A352BA6D174CE29A0083EA33 /* CoreData.framework */; };
+		A352BA74174CE29A0083EA33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A352BA72174CE29A0083EA33 /* InfoPlist.strings */; };
+		A352BA76174CE29A0083EA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A352BA75174CE29A0083EA33 /* main.m */; };
+		A352BA7A174CE29A0083EA33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A352BA79174CE29A0083EA33 /* AppDelegate.m */; };
+		A352BA7C174CE29A0083EA33 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A352BA7B174CE29A0083EA33 /* Default.png */; };
+		A352BA7E174CE29A0083EA33 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A352BA7D174CE29A0083EA33 /* Default@2x.png */; };
+		A352BA80174CE29A0083EA33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A352BA7F174CE29A0083EA33 /* Default-568h@2x.png */; };
+		A352BA83174CE29A0083EA33 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A352BA81174CE29A0083EA33 /* MainStoryboard.storyboard */; };
+		A352BA86174CE29A0083EA33 /* PilotRuma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A352BA84174CE29A0083EA33 /* PilotRuma.xcdatamodeld */; };
+		A352BA89174CE29A0083EA33 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A352BA88174CE29A0083EA33 /* MasterViewController.m */; };
+		A352BA8C174CE29A0083EA33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A352BA8B174CE29A0083EA33 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A352BA64174CE29A0083EA33 /* PilotRuma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PilotRuma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A352BA67174CE29A0083EA33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A352BA69174CE29A0083EA33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A352BA6B174CE29A0083EA33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A352BA6D174CE29A0083EA33 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A352BA71174CE29A0083EA33 /* PilotRuma-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PilotRuma-Info.plist"; sourceTree = "<group>"; };
+		A352BA73174CE29A0083EA33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A352BA75174CE29A0083EA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A352BA77174CE29A0083EA33 /* PilotRuma-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PilotRuma-Prefix.pch"; sourceTree = "<group>"; };
+		A352BA78174CE29A0083EA33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A352BA79174CE29A0083EA33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A352BA7B174CE29A0083EA33 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A352BA7D174CE29A0083EA33 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A352BA7F174CE29A0083EA33 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A352BA82174CE29A0083EA33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A352BA85174CE29A0083EA33 /* PilotRuma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PilotRuma.xcdatamodel; sourceTree = "<group>"; };
+		A352BA87174CE29A0083EA33 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A352BA88174CE29A0083EA33 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A352BA8A174CE29A0083EA33 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A352BA8B174CE29A0083EA33 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A352BA61174CE29A0083EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A352BA68174CE29A0083EA33 /* UIKit.framework in Frameworks */,
+				A352BA6A174CE29A0083EA33 /* Foundation.framework in Frameworks */,
+				A352BA6C174CE29A0083EA33 /* CoreGraphics.framework in Frameworks */,
+				A352BA6E174CE29A0083EA33 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A352BA5B174CE29A0083EA33 = {
+			isa = PBXGroup;
+			children = (
+				A352BA6F174CE29A0083EA33 /* PilotRuma */,
+				A352BA66174CE29A0083EA33 /* Frameworks */,
+				A352BA65174CE29A0083EA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A352BA65174CE29A0083EA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A352BA64174CE29A0083EA33 /* PilotRuma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A352BA66174CE29A0083EA33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A352BA67174CE29A0083EA33 /* UIKit.framework */,
+				A352BA69174CE29A0083EA33 /* Foundation.framework */,
+				A352BA6B174CE29A0083EA33 /* CoreGraphics.framework */,
+				A352BA6D174CE29A0083EA33 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A352BA6F174CE29A0083EA33 /* PilotRuma */ = {
+			isa = PBXGroup;
+			children = (
+				A352BA78174CE29A0083EA33 /* AppDelegate.h */,
+				A352BA79174CE29A0083EA33 /* AppDelegate.m */,
+				A352BA81174CE29A0083EA33 /* MainStoryboard.storyboard */,
+				A352BA87174CE29A0083EA33 /* MasterViewController.h */,
+				A352BA88174CE29A0083EA33 /* MasterViewController.m */,
+				A352BA8A174CE29A0083EA33 /* DetailViewController.h */,
+				A352BA8B174CE29A0083EA33 /* DetailViewController.m */,
+				A352BA84174CE29A0083EA33 /* PilotRuma.xcdatamodeld */,
+				A352BA70174CE29A0083EA33 /* Supporting Files */,
+			);
+			path = PilotRuma;
+			sourceTree = "<group>";
+		};
+		A352BA70174CE29A0083EA33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A352BA71174CE29A0083EA33 /* PilotRuma-Info.plist */,
+				A352BA72174CE29A0083EA33 /* InfoPlist.strings */,
+				A352BA75174CE29A0083EA33 /* main.m */,
+				A352BA77174CE29A0083EA33 /* PilotRuma-Prefix.pch */,
+				A352BA7B174CE29A0083EA33 /* Default.png */,
+				A352BA7D174CE29A0083EA33 /* Default@2x.png */,
+				A352BA7F174CE29A0083EA33 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A352BA63174CE29A0083EA33 /* PilotRuma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A352BA8F174CE29A0083EA33 /* Build configuration list for PBXNativeTarget "PilotRuma" */;
+			buildPhases = (
+				A352BA60174CE29A0083EA33 /* Sources */,
+				A352BA61174CE29A0083EA33 /* Frameworks */,
+				A352BA62174CE29A0083EA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PilotRuma;
+			productName = PilotRuma;
+			productReference = A352BA64174CE29A0083EA33 /* PilotRuma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A352BA5C174CE29A0083EA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ruma;
+			};
+			buildConfigurationList = A352BA5F174CE29A0083EA33 /* Build configuration list for PBXProject "PilotRuma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A352BA5B174CE29A0083EA33;
+			productRefGroup = A352BA65174CE29A0083EA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A352BA63174CE29A0083EA33 /* PilotRuma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A352BA62174CE29A0083EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A352BA74174CE29A0083EA33 /* InfoPlist.strings in Resources */,
+				A352BA7C174CE29A0083EA33 /* Default.png in Resources */,
+				A352BA7E174CE29A0083EA33 /* Default@2x.png in Resources */,
+				A352BA80174CE29A0083EA33 /* Default-568h@2x.png in Resources */,
+				A352BA83174CE29A0083EA33 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A352BA60174CE29A0083EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A352BA76174CE29A0083EA33 /* main.m in Sources */,
+				A352BA7A174CE29A0083EA33 /* AppDelegate.m in Sources */,
+				A352BA86174CE29A0083EA33 /* PilotRuma.xcdatamodeld in Sources */,
+				A352BA89174CE29A0083EA33 /* MasterViewController.m in Sources */,
+				A352BA8C174CE29A0083EA33 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A352BA72174CE29A0083EA33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A352BA73174CE29A0083EA33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A352BA81174CE29A0083EA33 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A352BA82174CE29A0083EA33 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A352BA8D174CE29A0083EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A352BA8E174CE29A0083EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A352BA90174CE29A0083EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PilotRuma/PilotRuma-Prefix.pch";
+				INFOPLIST_FILE = "PilotRuma/PilotRuma-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A352BA91174CE29A0083EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PilotRuma/PilotRuma-Prefix.pch";
+				INFOPLIST_FILE = "PilotRuma/PilotRuma-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A352BA5F174CE29A0083EA33 /* Build configuration list for PBXProject "PilotRuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A352BA8D174CE29A0083EA33 /* Debug */,
+				A352BA8E174CE29A0083EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A352BA8F174CE29A0083EA33 /* Build configuration list for PBXNativeTarget "PilotRuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A352BA90174CE29A0083EA33 /* Debug */,
+				A352BA91174CE29A0083EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A352BA84174CE29A0083EA33 /* PilotRuma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A352BA85174CE29A0083EA33 /* PilotRuma.xcdatamodel */,
+			);
+			currentVersion = A352BA85174CE29A0083EA33 /* PilotRuma.xcdatamodel */;
+			path = PilotRuma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A352BA5C174CE29A0083EA33 /* Project object */;
+}
